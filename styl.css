@@ -1,0 +1,177 @@
+:root {
+  --primari-text-color: #ffffff;
+  --title-text-color: #434455;
+  --accent-color: #2e2f42;
+  --button-fon-color: #404bbf;
+  --button-text-color: #4d5ae5;
+  --button-fon-pasiv: #e7e9fc;
+  --knopka-fon: #f4f4fd;
+}
+.body {
+  /* Research and confirm brands that present the strongest digital growth opportunities and minimize risk. */
+
+  width: 264px;
+  height: 72px;
+
+  /* Body */
+
+  font-family: Roboto, sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  /* or 150% */
+
+  letter-spacing: 0.02em;
+}
+.list {
+  list-style: none;
+}
+.logo {
+  font-family: Raleway;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.16;
+  color: var(--accent-color);
+  text-decoration: none;
+  text-transform: uppercase;
+}
+.logofuter {
+  font-family: Raleway;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.16;
+  color: var(--knopka-fon);
+  text-decoration: none;
+  text-transform: uppercase;
+}
+.web-logo {
+  font-family: Raleway;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.16;
+  text-transform: uppercase;
+  color: var(--button-text-color);
+}
+.list-link {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  text-decoration: none;
+  color: var(--accent-color);
+}
+.list-link:hover{
+ 
+  text-decoration: underline var(--button-fon-color);
+}
+/* маил тел */
+.adress {
+  font-family: "Roboto";
+  font-style: normal;
+  text-decoration: none;
+  color: var(--title-text-color);
+}
+.adress:hover{
+  text-decoration: underline var(--button-fon-color);
+}
+/* скрытый заголовок */
+.non {
+  display: none;
+}
+/* button */
+.button {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: var(--button-text-color);
+  box-sizing: border-box;
+  padding: 12px 24px;
+  background: var(--knopka-fon);
+  border: 1px solid var(--button-fon-pasiv);
+  border-radius: 4px;
+}
+.button:hover {
+  color: var(--primari-text-color);
+  background: var(--button-fon-color);
+}
+/* content */
+.zagolovoc {
+  width: 290px;
+  height: 24px;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: var(--accent-color);
+}
+.border {
+  box-sizing: border-box;
+
+  width: 360px;
+  height: 420px;
+  left: 540px;
+  top: 288px;
+
+  background: var(--primari-text-color);
+  border: 1px solid var(--button-fon-pasiv);
+}
+/* futer */
+.bg {
+  width: 1980px;
+  height: 312px;
+  background: var(--accent-color);
+}
+.futer {
+  color: var(--knopka-fon);
+}
+.herov {
+  width: 1440px;
+  height: 600px;
+  left: 0px;
+  top: 72px;
+  background: var(--accent-color);
+}
+.herov .text {
+  position: absolute;
+  width: 496px;
+  height: 120px;
+  left: 472px;
+  top: 260px;
+  font-weight: 700;
+  font-size: 56px;
+  line-height: 1.1;
+  letter-spacing: 0.02em;
+  color: var(--primari-text-color);
+}
+.buttonone {
+  position: absolute;
+  width: 169px;
+  height: 56px;
+  left: 636px;
+  top: 428px;
+  background: var(--button-text-color);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+
+  align-items: center;
+  letter-spacing: 0.04em;
+  color: var(--primari-text-color);
+}
+.firsth {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.1;
+  text-align: center;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  color: var(--accent-color);
+  white-space: nowrap;
+}
+.fon-bg {
+  width: 1440px;
+height: 2000
+px;
+  background: var(--knopka-fon);
+}
