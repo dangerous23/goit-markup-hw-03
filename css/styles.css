@@ -85,10 +85,7 @@
 .adress:focus {
   color: var(--button-fon-color);
 }
-/* скрытый заголовок */
-.non {
-  display: none;
-}
+
 /* button */
 .button {
   font-family: Roboto, sans-serif;
@@ -163,7 +160,7 @@
   color: var(--primari-text-color);
 }
 .buttonone {
-  font-family: "Roboto";
+  font-family:Roboto, sans-serif;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
@@ -171,6 +168,7 @@
   align-items: center;
   letter-spacing: 0.04em;
   color: var(--primari-text-color);
+  background-color: var(--button-text-color);
   cursor: pointer;
 }
 .buttonone:hover {
@@ -222,4 +220,13 @@
   text-align: center;
   letter-spacing: 0.02em;
   color: var(--accent-color);
+}
+.telm{
+  font-style: normal ;
+}
+.pag{
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--title-text-color);
 }
