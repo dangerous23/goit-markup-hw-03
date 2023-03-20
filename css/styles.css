@@ -8,26 +8,37 @@
   --knopka-fon: #f4f4fd;
 }
 .body {
-  /* Research and confirm brands that present the strongest digital growth opportunities and minimize risk. */
-
-  width: 264px;
-  height: 72px;
-
-  /* Body */
-
   font-family: Roboto, sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
   color: var(--title-text-color);
-  background-color: var(#ffffff);
   letter-spacing: 0.02em;
-  color:var(--title-text-color);
+  color: var(--title-text-color);
+  background-color: var(--primari-text-color);
+}
+.link {
+  text-decoration: none;
 }
 .list {
   list-style: none;
+}
+.link-nav {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--accent-color);
   text-decoration: none;
+}
+.link-nav:hover {
+  color: var(--button-fon-color);
+}
+.link-nav:focus {
+  color: var(--button-fon-color);
 }
 .logo {
   font-family: Raleway, sans-serif;
@@ -36,7 +47,6 @@
   line-height: 1.17;
   letter-spacing: 0.03em;
   color: var(--button-text-color);
-  text-decoration: none;
   text-transform: uppercase;
 }
 .logofuter {
@@ -58,27 +68,30 @@
   color: var(--accent-color);
   letter-spacing: 0.03em;
 }
-.list .link {
-  font-weight: 500;
+
+/* маил тел */
+.adress {
+  font-family: Roboto, sans-serif;
+  font-style: normal;
+  font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  text-decoration: none;
-  color: var(--accent-color);
+  color: var(--title-text-color);
 }
-.list .link :hover :focus {
+.adress:hover {
   color: var(--button-fon-color);
-  text-decoration: underline var(--button-fon-color);
 }
-/* маил тел */
-
+.adress:focus {
+  color: var(--button-fon-color);
+}
 /* скрытый заголовок */
 .non {
   display: none;
 }
 /* button */
-.list .button {
-
+.button {
+  font-family: Roboto, sans-serif;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
@@ -91,7 +104,14 @@
   border-radius: 4px;
   cursor: pointer;
 }
-
+.button:hover {
+  color: var(--primari-text-color);
+  background-color: var(--button-fon-color);
+}
+.button:focus {
+  color: var(--primari-text-color);
+  background-color: var(--button-fon-color);
+}
 /* content */
 .zagolovoc {
   width: 290px;
@@ -143,20 +163,22 @@
   color: var(--primari-text-color);
 }
 .buttonone {
-  position: absolute;
-  width: 169px;
-  height: 56px;
-  left: 636px;
-  top: 428px;
-  background: var(--button-text-color);
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-  border-radius: 4px;
+  font-family: "Roboto";
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  display: flex;
   align-items: center;
   letter-spacing: 0.04em;
   color: var(--primari-text-color);
   cursor: pointer;
 }
-
+.buttonone:hover {
+  background-color: var(--button-fon-color);
+}
+.buttonone:focus {
+  background-color: var(--button-fon-color);
+}
 .firsth {
   font-weight: 700;
   font-size: 36px;
@@ -172,31 +194,32 @@
   height: 2000 px;
   background: var(--knopka-fon);
 }
-.par-index{
-  font-family: 'Roboto';
-font-weight: 400;
-font-size: 16px;
-line-height: 1.5;
-letter-spacing: 0.02em;
-color: var(--title-text-color);
-}
-.li-index{
-font-family: 'Roboto';
-font-style: normal;
-font-weight: 500;
-font-size: 20px;
-line-height: 1.2;
-text-align: center;
-letter-spacing: 0.02em;
-color: var(--accent-color);
-background-color: var(--primari-text-color);
-}
-.li-team{ 
-  font-family: 'Roboto';
-  font-style: normal;
+.par-index {
+  font-family: "Roboto";
   font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--title-text-color);
+}
+.li-index {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
   text-align: center;
   letter-spacing: 0.02em;
-  color: var(--title-text-color);}
+  color: var(--accent-color);
+  background-color: var(--primari-text-color);
+}
+.li-team {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  text-align: center;
+  letter-spacing: 0.02em;
+  color: var(--accent-color);
+}
