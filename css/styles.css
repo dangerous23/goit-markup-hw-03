@@ -20,40 +20,45 @@
   font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
-  /* or 150% */
-
+  color: var(--title-text-color);
+  background-color: var(#ffffff);
   letter-spacing: 0.02em;
+  color:var(--title-text-color);
 }
 .list {
   list-style: none;
+  text-decoration: none;
 }
 .logo {
-  font-family: Raleway;
+  font-family: Raleway, sans-serif;
   font-weight: 800;
   font-size: 18px;
-  line-height: 1.16;
-  color: var(--accent-color);
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  color: var(--button-text-color);
   text-decoration: none;
   text-transform: uppercase;
 }
 .logofuter {
-  font-family: Raleway;
+  font-family: Raleway, sans-serif;
   font-weight: 800;
   font-size: 18px;
-  line-height: 1.16;
+  line-height: 1.17;
   color: var(--knopka-fon);
   text-decoration: none;
   text-transform: uppercase;
+  letter-spacing: 0.03em;
 }
 .web-logo {
   font-family: Raleway;
   font-weight: 800;
   font-size: 18px;
-  line-height: 1.16;
+  line-height: 1.17;
   text-transform: uppercase;
-  color: var(--button-text-color);
+  color: var(--accent-color);
+  letter-spacing: 0.03em;
 }
-.list-link {
+.list .link {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
@@ -61,26 +66,19 @@
   text-decoration: none;
   color: var(--accent-color);
 }
-.list-link:hover{
- 
+.list .link :hover :focus {
+  color: var(--button-fon-color);
   text-decoration: underline var(--button-fon-color);
 }
 /* маил тел */
-.adress {
-  font-family: "Roboto";
-  font-style: normal;
-  text-decoration: none;
-  color: var(--title-text-color);
-}
-.adress:hover{
-  text-decoration: underline var(--button-fon-color);
-}
+
 /* скрытый заголовок */
 .non {
   display: none;
 }
 /* button */
-.button {
+.list .button {
+
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
@@ -91,11 +89,9 @@
   background: var(--knopka-fon);
   border: 1px solid var(--button-fon-pasiv);
   border-radius: 4px;
+  cursor: pointer;
 }
-.button:hover {
-  color: var(--primari-text-color);
-  background: var(--button-fon-color);
-}
+
 /* content */
 .zagolovoc {
   width: 290px;
@@ -118,7 +114,7 @@
   border: 1px solid var(--button-fon-pasiv);
 }
 /* futer */
-.bg {
+.bgc {
   width: 1980px;
   height: 312px;
   background: var(--accent-color);
@@ -139,9 +135,10 @@
   height: 120px;
   left: 472px;
   top: 260px;
+  text-align: center;
   font-weight: 700;
   font-size: 56px;
-  line-height: 1.1;
+  line-height: 1.07;
   letter-spacing: 0.02em;
   color: var(--primari-text-color);
 }
@@ -154,24 +151,52 @@
   background: var(--button-text-color);
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
-
   align-items: center;
   letter-spacing: 0.04em;
   color: var(--primari-text-color);
+  cursor: pointer;
 }
+
 .firsth {
   font-weight: 700;
   font-size: 36px;
-  line-height: 1.1;
+  line-height: 1.11;
   text-align: center;
   letter-spacing: 0.02em;
   text-transform: capitalize;
   color: var(--accent-color);
   white-space: nowrap;
 }
-.fon-bg {
+.fon-bgc {
   width: 1440px;
-height: 2000
-px;
+  height: 2000 px;
   background: var(--knopka-fon);
 }
+.par-index{
+  font-family: 'Roboto';
+font-weight: 400;
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.02em;
+color: var(--title-text-color);
+}
+.li-index{
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 20px;
+line-height: 1.2;
+text-align: center;
+letter-spacing: 0.02em;
+color: var(--accent-color);
+background-color: var(--primari-text-color);
+}
+.li-team{ 
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  text-align: center;
+  letter-spacing: 0.02em;
+  color: var(--title-text-color);}
