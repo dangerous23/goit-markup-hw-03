@@ -8,14 +8,13 @@
   --knopka-fon: #f4f4fd;
 }
 .body {
-  font-family: Roboto, sans-serif;
+  font-family:Roboto, sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
   color: var(--title-text-color);
   letter-spacing: 0.02em;
-  color: var(--title-text-color);
   background-color: var(--primari-text-color);
 }
 .link {
