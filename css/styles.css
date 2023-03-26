@@ -8,13 +8,9 @@
   --knopka-fon: #f4f4fd;
 }
 .body {
-  font-family:Roboto, sans-serif;
-  font-style: normal;
-  font-weight: 400;
+  font-family: Roboto, sans-serif;
   font-size: 16px;
-  line-height: 1.5;
   color: var(--title-text-color);
-  letter-spacing: 0.02em;
   background-color: var(--primari-text-color);
 }
 .link {
@@ -24,10 +20,7 @@
   list-style: none;
 }
 .link-nav {
-  font-family: "Roboto";
-  font-style: normal;
   font-weight: 500;
-  font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--accent-color);
@@ -48,33 +41,16 @@
   color: var(--button-text-color);
   text-transform: uppercase;
 }
-.logofuter {
-  font-family: Raleway, sans-serif;
-  font-weight: 800;
-  font-size: 18px;
-  line-height: 1.17;
+.logofooter {
   color: var(--knopka-fon);
-  text-decoration: none;
-  text-transform: uppercase;
-  letter-spacing: 0.03em;
 }
 .web-logo {
-  font-family: Raleway;
-  font-weight: 800;
-  font-size: 18px;
-  line-height: 1.17;
-  text-transform: uppercase;
   color: var(--accent-color);
-  letter-spacing: 0.03em;
 }
 
 /* маил тел */
 .adress {
-  font-family: Roboto, sans-serif;
-  font-style: normal;
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 1.5;
+   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--title-text-color);
 }
@@ -87,10 +63,7 @@
 
 /* button */
 .button {
-  font-family: Roboto, sans-serif;
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 1.5;
+   line-height: 1.5;
   letter-spacing: 0.04em;
   color: var(--button-text-color);
   box-sizing: border-box;
@@ -109,59 +82,35 @@
   background-color: var(--button-fon-color);
 }
 /* content */
-.zagolovoc {
-  width: 290px;
-  height: 24px;
+.title {
+
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: var(--accent-color);
 }
-.border {
-  box-sizing: border-box;
 
-  width: 360px;
-  height: 420px;
-  left: 540px;
-  top: 288px;
-
-  background: var(--primari-text-color);
-  border: 1px solid var(--button-fon-pasiv);
-}
 /* futer */
 .bgc {
-  width: 1980px;
-  height: 312px;
+
   background: var(--accent-color);
 }
-.futer {
+.footer {
   color: var(--knopka-fon);
 }
-.herov {
-  width: 1440px;
-  height: 600px;
-  left: 0px;
-  top: 72px;
-  background: var(--accent-color);
+.hero {
+   background: var(--accent-color);
 }
-.herov .text {
-  position: absolute;
-  width: 496px;
-  height: 120px;
-  left: 472px;
-  top: 260px;
+.hero .text {
   text-align: center;
-  font-weight: 700;
   font-size: 56px;
   line-height: 1.07;
   letter-spacing: 0.02em;
   color: var(--primari-text-color);
 }
 .buttonone {
-  font-family:Roboto, sans-serif;
   font-weight: 500;
-  font-size: 16px;
   line-height: 1.5;
   display: flex;
   align-items: center;
@@ -177,8 +126,6 @@
   background-color: var(--button-fon-color);
 }
 .firsth {
-  font-weight: 700;
-  font-size: 36px;
   line-height: 1.11;
   text-align: center;
   letter-spacing: 0.02em;
@@ -187,21 +134,14 @@
   white-space: nowrap;
 }
 .fon-bgc {
-  width: 1440px;
-  height: 2000 px;
   background: var(--knopka-fon);
 }
 .par-index {
-  font-family: "Roboto";
-  font-weight: 400;
-  font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--title-text-color);
 }
 .li-index {
-  font-family: "Roboto";
-  font-style: normal;
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
@@ -211,8 +151,6 @@
   background-color: var(--primari-text-color);
 }
 .li-team {
-  font-family: "Roboto";
-  font-style: normal;
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
@@ -220,11 +158,10 @@
   letter-spacing: 0.02em;
   color: var(--accent-color);
 }
-.telm{
-  font-style: normal ;
+.telm {
+  font-style: normal;
 }
-.pag{
-  font-size: 16px;
+.pag {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--title-text-color);
