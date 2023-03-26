@@ -50,7 +50,7 @@
 
 /* маил тел */
 .adress {
-   line-height: 1.5;
+  line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--title-text-color);
 }
@@ -63,7 +63,8 @@
 
 /* button */
 .button {
-   line-height: 1.5;
+  font-weight: 500;
+  line-height: 1.5;
   letter-spacing: 0.04em;
   color: var(--button-text-color);
   box-sizing: border-box;
@@ -83,7 +84,6 @@
 }
 /* content */
 .title {
-
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
@@ -93,14 +93,13 @@
 
 /* futer */
 .bgc {
-
   background: var(--accent-color);
 }
 .footer {
   color: var(--knopka-fon);
 }
 .hero {
-   background: var(--accent-color);
+  background: var(--accent-color);
 }
 .hero .text {
   text-align: center;
@@ -126,6 +125,7 @@
   background-color: var(--button-fon-color);
 }
 .firsth {
+  font-size: 36px;
   line-height: 1.11;
   text-align: center;
   letter-spacing: 0.02em;
@@ -137,6 +137,7 @@
   background: var(--knopka-fon);
 }
 .par-index {
+  font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--title-text-color);
