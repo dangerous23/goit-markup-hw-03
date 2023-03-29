@@ -7,11 +7,26 @@
   --button-fon-pasiv: #e7e9fc;
   --knopka-fon: #f4f4fd;
 }
-.body {
+body {
   font-family: Roboto, sans-serif;
   font-size: 16px;
   color: var(--title-text-color);
   background-color: var(--primari-text-color);
+}
+
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+}
+
+ul {
+  margin: 0;
+  padding-inline-start: 0;
 }
 .link {
   text-decoration: none;
@@ -19,13 +34,36 @@
 .list {
   list-style: none;
 }
+
+.container {
+  width: 1158px;
+  margin: 0 auto;
+}
+
+
+
+.menu {
+  display: flex;
+}
+.roster:not(:last-child) {
+  margin-right: 40px;
+}
+.navigation {
+  border-bottom: 1px solid#E7E9FC;
+  display: flex;
+}
+
 .link-nav {
+  display: block;
   font-weight: 500;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--accent-color);
   text-decoration: none;
+  padding-top: 23px;
+  padding-bottom: 23px;
 }
+
 .link-nav:hover {
   color: var(--button-fon-color);
 }
@@ -33,6 +71,9 @@
   color: var(--button-fon-color);
 }
 .logo {
+  margin-right: 78px;
+  padding-top: 23px;
+  padding-bottom: 23px;
   font-family: Raleway, sans-serif;
   font-weight: 800;
   font-size: 18px;
@@ -49,11 +90,28 @@
 }
 
 /* маил тел */
+.add {
+  display: flex;
+  align-items: center;
+  margin-left: auto;
+}
+.telm {
+  display: flex;
+  font-style: normal;
+}
 .adress {
+  padding-top: 23px;
+  padding-bottom: 23px;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--title-text-color);
 }
+.adress-li {
+}
+.adress-li:not(:first-child) {
+  margin-left: 24px;
+}
+
 .adress:hover {
   color: var(--button-fon-color);
 }
@@ -62,10 +120,20 @@
 }
 
 /* button */
+.li-button {
+  justify-content: center;
+  padding-top: 96px;
+  padding-bottom: 72px;
+  display: flex;
+  flex-direction: row;
+}
+.li-butt:not(:last-child) {
+  margin-right: 24px;
+}
 .button {
   font-family: Roboto, sans-serif;
   font-weight: 500;
-  font-size: 16px ;
+  font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.04em;
   color: var(--button-text-color);
@@ -85,25 +153,72 @@
   background-color: var(--button-fon-color);
 }
 /* content */
+
+.wraper {
+  width: 1158px;
+  padding-right: 15px;
+  padding-left: 15px;
+  padding-top: 72px;
+  padding-bottom: 120px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 48px 24px;
+}
+.blok {
+  border: 1px solid #e7e9fc;
+  width: calc((100% - 48px) / 3);
+}
+.blok:nth-child(3n) {
+  margin-right: 0px;
+}
+
 .title {
+  padding-left: 15px;
+  padding-top: 32px;
+  padding-bottom: 8px;
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: var(--accent-color);
 }
+.pag {
+  padding-left: 15px;
+  padding-bottom: 32px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--title-text-color);
+}
 
 /* futer */
 .bgc {
+  margin: auto;
+  width: 1440px;
+  height: 312px;
   background: var(--accent-color);
 }
+.end {
+  width: 264px;
+  height: 72px;
+  padding-top: 100px;
+}
 .footer {
+  padding-top: 16px;
+  padding-bottom: 100px;
   color: var(--knopka-fon);
 }
 .hero {
+  margin: auto;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding-top: 188px;
+  width: 1440px;
+  height: 600px;
   background: var(--accent-color);
 }
 .hero .text {
+  padding-bottom: 48px;
   text-align: center;
   font-size: 56px;
   line-height: 1.07;
@@ -111,12 +226,14 @@
   color: var(--primari-text-color);
 }
 .buttonone {
+  width: 156px;
+  height: 56px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+border-radius: 4px;
   font-family: Roboto, sans-serif;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
-  display: flex;
-  align-items: center;
   letter-spacing: 0.04em;
   color: var(--primari-text-color);
   background-color: var(--button-text-color);
@@ -128,7 +245,72 @@
 .buttonone:focus {
   background-color: var(--button-fon-color);
 }
+
+.fon-bgc {
+  background: var(--knopka-fon);
+}
+
+.tagline{
+  display: flex;
+  padding-top: 120px;
+  padding-bottom: 120px;
+  justify-content: space-between;
+
+}
+.tagimg{
+  display: flex;
+  padding-bottom: 120px;
+  justify-content: space-between;
+}
+.title-ind {
+
+  padding-top: 32px;
+  padding-bottom: 8px;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: var(--accent-color);
+}
+
+.par-index {
+ padding-bottom: 32px;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--title-text-color);
+}
+.li-index {
+  border: 1px solid #e7e9fc;
+  width: calc((100% - 74px) / 4);
+  margin-right: 24px;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  text-align: center;
+  letter-spacing: 0.02em;
+  color: var(--accent-color);
+  background-color: var(--primari-text-color);
+  box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
+border-radius: 0px 0px 4px 4px;
+}
+
+.li-index:nth-child(4n)  {
+    margin-right: 0px;}
+.li-team {
+  padding-bottom: 8px;
+  padding-top: 32px;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  text-align: center;
+  letter-spacing: 0.02em;
+  color: var(--accent-color);
+}
+
 .firsth {
+  padding-top: 120px;
+  padding-bottom: 72px;
   font-size: 36px;
   line-height: 1.11;
   text-align: center;
@@ -137,37 +319,18 @@
   color: var(--accent-color);
   white-space: nowrap;
 }
-.fon-bgc {
-  background: var(--knopka-fon);
+.section {
+  margin: auto;
+  width: 1440px; ;
+  height: 732px;
+  padding-bottom: 120px;
+
 }
-.par-index {
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
-  color: var(--title-text-color);
-}
-.li-index {
-  font-weight: 500;
-  font-size: 20px;
-  line-height: 1.2;
-  text-align: center;
-  letter-spacing: 0.02em;
-  color: var(--accent-color);
-  background-color: var(--primari-text-color);
-}
-.li-team {
-  font-weight: 500;
-  font-size: 20px;
-  line-height: 1.2;
-  text-align: center;
-  letter-spacing: 0.02em;
-  color: var(--accent-color);
-}
-.telm {
-  font-style: normal;
-}
-.pag {
-  line-height: 1.5;
-  letter-spacing: 0.02em;
-  color: var(--title-text-color);
+.ourteam{
+  display: flex;
+
+  
+    }
+.ourteam:nth-child(4n) {
+  margin-right: 0px;
 }

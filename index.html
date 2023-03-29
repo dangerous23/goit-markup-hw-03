@@ -10,105 +10,132 @@
         rel="stylesheet" />
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
+        integrity="sha512-wpPYUAdjBVSE4KJnH1VR1HeZfpl1ub8YT/NKx4PuQ5NmX2tKuGu6U/JRp5y+Y8XG2tV+wKQpNHVUX03MfMFn9Q=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="./css/styles.css" />
 </head>
 
 <body class="body">
     <!-- Шапка сайта -->
     <header>
-        <nav>
-            <a class="logo link" href="./index.html">Web<span class="web-logo">Studio</span></a>
-            <ul class="list">
-                <li><a class="link-nav link" href="./index.html">Studio</a></li>
-                <li><a class="link-nav link" href="./portfolio.html">Portfolio</a></li>
-                <li><a class="link-nav link" href="">Contacts</a></li>
-            </ul>
-        </nav>
-        <address class="telm">
-            <ul class="list">
-                <li><a class="adress link" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
-                <li><a class="adress link" href="tel:+110001111111">+11 (000) 111-11-11</a></li>
-            </ul>
-        </address>
+        <div class="container navigation">
+
+            <nav class="navigation">
+                <a class="logo link" href="./index.html">Web<span class="web-logo">Studio</span></a>
+                <ul class="list menu">
+                    <li class="roster"><a class="link-nav link" href="./index.html">Studio</a></li>
+                    <li class="roster"><a class="link-nav link" href="./portfolio.html">Portfolio</a></li>
+                    <li class="roster"><a class="link-nav link" href="./contacts.html">Contacts</a></li>
+                </ul>
+            </nav>
+            <address class="add">
+                <ul class="telm list">
+                    <li class="adress-li"><a class="adress link" href="mailto:info@devstudio.com">info@devstudio.com</a>
+                    </li>
+                    <li class="adress-li"><a class="adress link" href="tel:+110001111111">+11 (000) 111-11-11</a></li>
+                </ul>
+            </address>
+
+        </div>
     </header>
     <main>
 
+
         <!-- Герой -->
         <section class="hero">
-            <h1 class="text">Effective Solutions for Your Business</h1>
+            <h1 class="text">Effective Solutions<br> for Your Business</h1>
             <button class="buttonone" type="button">Order Service</button>
+            </div>
         </section>
+    </div>
+
         <!-- Слоган -->
         <section>
-            <h2 hidden class="title">Slogans</h2>
-            <ul class="list">
-                <li>
-                    <h3 class="title">Strategy</h3>
-                    <p class="par-index">Our goal is to identify the business problem to walk away with the perfect and
-                        creative solution.
-                    </p>
-                </li>
-                <li>
-                    <h3 class="title">Punctuality</h3>
-                    <p class="par-index">Bring the key message to the brand's audience for the best price within the
-                        shortest possible
-                        time. </p>
-                </li>
-                <li>
-                    <h3 class="title">Diligence</h3>
-                    <p class="par-index">Research and confirm brands that present the strongest digital growth
-                        opportunities and minimize
-                        risk. </p>
-                </li>
-                <li>
-                    <h3 class="title">Technologies</h3>
-                    <p class="par-index">Design practice focused on digital experiences. We bring forth a deep passion
-                        for
-                        problem-solving. </p>
-                </li>
-            </ul>
+            <div class="container">
+                <h2 hidden class="title">Slogans</h2>
+                <ul class="list tagline">
+                    <li>
+                        <h3 class="title-ind">Strategy</h3>
+                        <p class="par-index">Our goal is to identify the business problem to walk away with the perfect
+                            and
+                            creative solution.
+                        </p>
+                    </li>
+                    <li>
+                        <h3 class="title-ind">Punctuality</h3>
+                        <p class="par-index">Bring the key message to the brand's audience for the best price within the
+                            shortest possible
+                            time. </p>
+                    </li>
+                    <li>
+                        <h3 class="title-ind">Diligence</h3>
+                        <p class="par-index">Research and confirm brands that present the strongest digital growth
+                            opportunities and minimize
+                            risk. </p>
+                    </li>
+                    <li>
+                        <h3 class="title-ind">Technologies</h3>
+                        <p class="par-index">Design practice focused on digital experiences. We bring forth a deep
+                            passion
+                            for
+                            problem-solving. </p>
+                    </li>
+                </ul>
         </section>
+        </div>
         <!--What are we doing  -->
         <section>
-            <h2 class="firsth">What are we doing</h2>
-            <ul class="list">
-                <li><img src="./images/desktop.jpg" alt="desktop statistics" width="360" /></li>
-                <li><img src="./images/phone.jpg" alt="messenger" width="360" /></li>
-                <li><img src="./images/laptop.jpg" alt="application demo" width="360" /></li>
-            </ul>
+            <div class="container">
+                <h2 class="firsth">What are we doing</h2>
+                <ul class="list tagimg ">
+                    <li><img src="./images/desktop.jpg" alt="desktop statistics" width="360" /></li>
+                    <li><img src="./images/phone.jpg" alt="messenger" width="360" /></li>
+                    <li><img src="./images/laptop.jpg" alt="application demo" width="360" /></li>
+                </ul>
+            </div>
         </section>
         <!-- Our team -->
-        <section class="fon-bgc">
-            <h2 class="firsth">Our Team</h2>
-            <ul class="list">
-                <li class="li-index">
-                    <img src="./images/Mark.jpg" alt="photo Mark Guerrero" width="264" />
-                    <h3 class="li-team">Mark Guerrero</h3>
-                    <p class="par-index">Product Designer</p>
-                </li>
-                <li class="li-index">
-                    <img src="./images/Tom.jpg" alt="photo Tom Ford" width="264" />
-                    <h3 class="li-team">Tom Ford</h3>
-                    <p class="par-index">Frontend Developer</p>
-                </li>
-                <li class="li-index">
-                    <img src="./images/Camila.jpg" alt="photo Camila Garcia" width="264" />
-                    <h3 class="li-team">Camila Garcia</h3>
-                    <p class="par-index">
-                    <p>Marketing</p>
-                </li>
-                <li class="li-index">
-                    <img src="./images/Daniel.jpg" alt="photo Daniel Wilson" width="264" />
-                    <h3 class="li-team">Daniel Wilson</h3>
-                    <p class="par-index">UI Designer</p>
-                </li>
-            </ul>
+        <section class="section">
+            <div class="container">
+                <h2 class="firsth">Our Team</h2>
+                <ul class="list  ourteam ">
+                    <li class="li-index ">
+                        <img src="./images/Mark.jpg" alt="photo Mark Guerrero" width="264" />
+                        <h3 class="li-team">Mark Guerrero</h3>
+                        <p class="par-index">Product Designer</p>
+                    </li>
+                    <li class="li-index">
+                        <img src="./images/Tom.jpg" alt="photo Tom Ford" width="264" />
+                        <h3 class="li-team">Tom Ford</h3>
+                        <p class="par-index">Frontend Developer</p>
+                    </li>
+                    <li class="li-index ">
+                        <img src="./images/Camila.jpg" alt="photo Camila Garcia" width="264" />
+                        <h3 class="li-team">Camila Garcia</h3>
+                        <p class="par-index">
+                        Marketing</p>
+                    </li>
+                    <li class="li-index ">
+                        <img src="./images/Daniel.jpg" alt="photo Daniel Wilson" width="264" />
+                        <h3 class="li-team">Daniel Wilson</h3>
+                        <p class="par-index">UI Designer</p>
+                    </li>
+                </ul>
+            </div>
         </section>
+
     </main>
     <footer class="bgc">
-        <a class="logo link" href="./index.html">Web<span class="logofooter">Studio</span></a>
-        <p class="footer">Increase the flow of customers and <br> sales for your business with digital<br> marketing &
-            growth solutions.</p>
+        <div class="container">
+            <div class="end">
+                <a class="logo link" href="./index.html">Web<span class="logofooter">Studio</span></a>
+                <p class="footer">Increase the flow of customers and <br> sales for your business with digital<br>
+                    marketing
+                    &
+                    growth solutions.</p>
+            </div>
+        </div>
     </footer>
 
 </body>
