@@ -38,9 +38,9 @@ ul {
 .container {
   width: 1158px;
   margin: 0 auto;
+  padding-left: 15px;
+  padding-right: 15px;
 }
-
-
 
 .menu {
   display: flex;
@@ -49,8 +49,10 @@ ul {
   margin-right: 40px;
 }
 .navigation {
-  border-bottom: 1px solid#E7E9FC;
   display: flex;
+}
+.header-nav {
+  border-bottom: 1px solid#E7E9FC;
 }
 
 .link-nav {
@@ -82,9 +84,7 @@ ul {
   color: var(--button-text-color);
   text-transform: uppercase;
 }
-.logofooter {
-  color: var(--knopka-fon);
-}
+
 .web-logo {
   color: var(--accent-color);
 }
@@ -122,8 +122,7 @@ ul {
 /* button */
 .li-button {
   justify-content: center;
-  padding-top: 96px;
-  padding-bottom: 72px;
+
   display: flex;
   flex-direction: row;
 }
@@ -159,11 +158,15 @@ ul {
   padding-right: 15px;
   padding-left: 15px;
   padding-top: 72px;
-  padding-bottom: 120px;
   display: flex;
   flex-wrap: wrap;
   gap: 48px 24px;
 }
+.portfolio {
+  padding-top: 96px;
+  padding-bottom: 120px;
+}
+
 .blok {
   border: 1px solid #e7e9fc;
   width: calc((100% - 48px) / 3);
@@ -173,8 +176,6 @@ ul {
 }
 
 .title {
-  padding-left: 15px;
-  padding-top: 32px;
   padding-bottom: 8px;
   font-weight: 500;
   font-size: 20px;
@@ -183,28 +184,44 @@ ul {
   color: var(--accent-color);
 }
 .pag {
-  padding-left: 15px;
-  padding-bottom: 32px;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--title-text-color);
 }
+.card {
+  padding-left: 15px;
+  padding-bottom: 32px;
+  padding-top: 32px;
+}
 
 /* futer */
 .bgc {
+  padding-top: 100px;
+  padding-bottom: 100px;
   margin: auto;
-  width: 1440px;
   height: 312px;
   background: var(--accent-color);
 }
 .end {
   width: 264px;
   height: 72px;
-  padding-top: 100px;
+}
+.logofooter {
+  color: var(--knopka-fon);
+}
+.log {
+  margin-right: 78px;
+  font-family: Raleway, sans-serif;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  color: var(--button-text-color);
+  text-transform: uppercase;
 }
 .footer {
+  line-height: 24px;
   padding-top: 16px;
-  padding-bottom: 100px;
   color: var(--knopka-fon);
 }
 .hero {
@@ -213,7 +230,6 @@ ul {
   align-items: center;
   flex-direction: column;
   padding-top: 188px;
-  width: 1440px;
   height: 600px;
   background: var(--accent-color);
 }
@@ -229,7 +245,7 @@ ul {
   width: 156px;
   height: 56px;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-border-radius: 4px;
+  border-radius: 4px;
   font-family: Roboto, sans-serif;
   font-weight: 500;
   font-size: 16px;
@@ -250,20 +266,27 @@ border-radius: 4px;
   background: var(--knopka-fon);
 }
 
-.tagline{
+.tagline {
   display: flex;
+  justify-content: space-between;
+}
+
+.tagline:not(:last-child) {
+  margin-right: 0px;
+}
+.li-slog {
+  width: 264px;
+}
+
+.section-slogans {
   padding-top: 120px;
   padding-bottom: 120px;
-  justify-content: space-between;
-
 }
-.tagimg{
+.tagimg {
   display: flex;
-  padding-bottom: 120px;
-  justify-content: space-between;
+  gap: 24px;
 }
 .title-ind {
-
   padding-top: 32px;
   padding-bottom: 8px;
   font-weight: 500;
@@ -274,8 +297,8 @@ border-radius: 4px;
 }
 
 .par-index {
- padding-bottom: 32px;
   font-size: 16px;
+  font-style: normal;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--title-text-color);
@@ -291,15 +314,16 @@ border-radius: 4px;
   letter-spacing: 0.02em;
   color: var(--accent-color);
   background-color: var(--primari-text-color);
-  box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
-border-radius: 0px 0px 4px 4px;
+  box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
+    0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
+  border-radius: 0px 0px 4px 4px;
 }
 
-.li-index:nth-child(4n)  {
-    margin-right: 0px;}
+.li-index:nth-child(4n) {
+  margin-right: 0px;
+}
 .li-team {
   padding-bottom: 8px;
-  padding-top: 32px;
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
@@ -309,7 +333,6 @@ border-radius: 0px 0px 4px 4px;
 }
 
 .firsth {
-  padding-top: 120px;
   padding-bottom: 72px;
   font-size: 36px;
   line-height: 1.11;
@@ -321,16 +344,15 @@ border-radius: 0px 0px 4px 4px;
 }
 .section {
   margin: auto;
-  width: 1440px; ;
-  height: 732px;
   padding-bottom: 120px;
-
 }
-.ourteam{
+.ourteam {
   display: flex;
-
-    }
+}
 .ourteam:nth-child(4n) {
   margin-right: 0px;
 }
-рр
+.div-our {
+  padding-top: 32px;
+  padding-bottom: 32px;
+}
