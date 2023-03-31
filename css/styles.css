@@ -154,10 +154,7 @@ ul {
 /* content */
 
 .wraper {
-  width: 1158px;
-  padding-right: 15px;
-  padding-left: 15px;
-  padding-top: 72px;
+  margin-top: 72px;
   display: flex;
   flex-wrap: wrap;
   gap: 48px 24px;
@@ -287,8 +284,7 @@ ul {
   gap: 24px;
 }
 .title-ind {
-  padding-top: 32px;
-  padding-bottom: 8px;
+ padding-bottom: 8px ;
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
@@ -333,6 +329,17 @@ ul {
 }
 
 .firsth {
+  margin-bottom: 72px;
+  font-size: 36px;
+  line-height: 1.11;
+  text-align: center;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  color: var(--accent-color);
+  white-space: nowrap;
+}
+.team-h{
+  padding-top:  120px;
   padding-bottom: 72px;
   font-size: 36px;
   line-height: 1.11;
@@ -341,6 +348,7 @@ ul {
   text-transform: capitalize;
   color: var(--accent-color);
   white-space: nowrap;
+  
 }
 .section {
   margin: auto;
