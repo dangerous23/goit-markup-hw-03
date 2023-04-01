@@ -106,8 +106,7 @@ ul {
   letter-spacing: 0.02em;
   color: var(--title-text-color);
 }
-.adress-li {
-}
+
 .adress-li:not(:first-child) {
   margin-left: 24px;
 }
@@ -275,7 +274,7 @@ ul {
   width: 264px;
 }
 
-.section-slogans {
+.section {
   padding-top: 120px;
   padding-bottom: 120px;
 }
@@ -284,7 +283,7 @@ ul {
   gap: 24px;
 }
 .title-ind {
- padding-bottom: 8px ;
+  padding-bottom: 8px;
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
@@ -338,9 +337,8 @@ ul {
   color: var(--accent-color);
   white-space: nowrap;
 }
-.team-h{
-  padding-top:  120px;
-  padding-bottom: 72px;
+.team-h {
+  margin-bottom: 72px;
   font-size: 36px;
   line-height: 1.11;
   text-align: center;
@@ -348,12 +346,8 @@ ul {
   text-transform: capitalize;
   color: var(--accent-color);
   white-space: nowrap;
-  
 }
-.section {
-  margin: auto;
-  padding-bottom: 120px;
-}
+
 .ourteam {
   display: flex;
 }
